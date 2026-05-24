@@ -227,7 +227,7 @@ ul {
 
 .nav__link:hover {
     cursor: pointer;
-    text-decoration: underline color: #6415ff;
+    text-decoration: underline color #6415ff;
 }
 
 /* 
@@ -1108,5 +1108,25 @@ MOBILE RESPONSIVENESS ↓
     }
     main {
         margin-bottom: 80px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plans {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .start__row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .start__title {
+        display: none;
+    }
+
+    .start__buttons {
+        flex-wrap: wrap;
     }
 }
